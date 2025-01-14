@@ -1,0 +1,88 @@
+/* Tło strony panelu admina */
+.admin-container {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+    margin: 50px;
+  }
+  
+  /* Nagłówek panelu admina */
+  .panel-header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  /* Styl dla tabeli */
+  table {
+    width: 100%;
+    max-width: 900px;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Nagłówki tabel */
+  table th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+  }
+  
+  /* Styl przycisków w tabeli */
+  button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styl przycisku usuwania */
+  button.delete {
+    background-color: #f44336;
+  }
+  
+  button.delete:hover {
+    background-color: #e53935;
+  }
+  
+  /* Inputy dla formularza dodawania produktu */
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Dodawanie produktu */
+  button.add-product {
+    background-color: #008cba;
+  }
+  
+  button.add-product:hover {
+    background-color: #007bb5;
+  }
